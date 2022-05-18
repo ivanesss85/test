@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(240, 225, 205);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+  
+.container{
+    height: 500px;
+    width: 750px;
+    /* background-image: linear-gradient(to bottom left,#a4d1a2,#b1eece ); */
+    background-color:#ffffff;
+    margin-top: 10vh;
+    padding:20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #000000;
+    opacity: 1;
+    text-align: center;
+    align-content: center;
+}
+
+.rate{
+    display: inline; 
+    color: #2f9725;    
+    width: 500px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 1px;
+    max-width: 10px;
+}
+
+.rateE{
+    display: inline; 
+    color: #2f9725;    
+    width: 500px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 1px;
+    padding-right: 10%;
+    max-width: 10px
+}
+
+.currency{
+    padding-right: 100px;
+    padding-top: 1px;
+}
+
+.currency select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color:transparent;
+color: #0e3114;
+width : 100px;
+height: 50px;
+border: none;
+border-radius: 1px;
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+
+.currency input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    color: #192c1e;
+    width: 300px;
+    height: 40px;
+    border: 11;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 80px;
+    
+}
+/*Селектор */
+.currency select option{
+    background-color: #89c095;
+    font-size: 1rem;
+    color: #000000;
+    }
+
+.result {
+    display: flex;
+	align-items: left;
+	justify-content: center;
+    margin-bottom: 25px;
+}
+
+ button#exchange  {
+    width: 50px;
+    height: 50px;
+    margin-top:80px;
+    background-color: transparent;
+    color:#213a25;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center; 
+    padding-bottom : 0.5rem;
+    border: 4px;
+    border-radius: 50%;
+}
+
+ button#exchange:hover{
+    color: #dce2cf;
+    background-color: #945f56;
+    border: 10px;
+    border-radius: 75%;
+    margin-left: 10;
+}
+
+ button#exchange:active{
+     color: #000000;
+}
+
+select:focus, input:focus, button:focus {
+	outline: 0;
+}
